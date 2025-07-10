@@ -3,6 +3,7 @@
 /* repate */
     .common-button {
     padding: 12px 24px;
+    height: 48px;
     color: white;
     border: none;
     border-radius: 6px;
@@ -38,9 +39,9 @@ nav h3 {
 }
 nav button {
     font-size: 16px;
+    height: 48px;
     font-weight: bold;
     font-family: 'Raleway', sans-serif;
-    padding: 12px 36px;
     border-radius: 10px;
     color: #ffffff;
     background-color: #4E47FF;
@@ -138,6 +139,7 @@ nav button {
     display: flex;
     text-align: center;
     justify-content: center;
+    margin-top: 25px;
     gap: 155px;
 }
 
@@ -220,4 +222,74 @@ nav button {
 .users-info h3 , h4 {
     margin: 0;
     color: gray;
+}
+
+/* from section */
+
+.touch-section {
+    width: 1140px;
+    height: 632px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 93px;
+    /* box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); */
+}
+
+.touch-section-title {
+    font-size: 97px;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;;
+    color: black;
+    width: 528px;
+}
+
+.touch-section-form {
+    width: 497px;
+    height: 490px;
+    /* border: 1px solid black; */
+}
+
+.form-group {
+    margin-bottom: 19px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+    font-family: 'Inter' , sans-serif;
+}
+
+input , textarea {
+    width: 462px;
+    /* padding-top: 20px;
+    padding-left: 30px;
+    padding-bottom: 20px; */
+    padding: 12px 15px;
+    font-size: 20px;
+    font-weight: 500px;
+    font-family: 'Inter' , sans-serif;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+textarea {
+    resize: vertical;
+    min-height: 140px;
+}
+
+.form-button {
+    width: 497px;
+    height: 62px;
+    background-color: #4E47FF;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    border-radius: 10px;
 }
