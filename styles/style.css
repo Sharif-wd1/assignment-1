@@ -1,0 +1,72 @@
+
+
+/* repate */
+    .common-button {
+    padding: 12px 24px;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.common-button:hover {
+    background-color: #0056b3; /* Darker blue */
+    transform: scale(1.05);
+}
+
+/* header section*/
+header {
+    width: 100%;
+    height: 692px;
+    background-image: url(/assets/hero-bg.png);
+}
+/* nav-section */
+nav {
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+nav h3 {
+    font-size: 34px;
+    font-family: sans-serif;
+    color: #4E47FF;
+    font-weight: bolder;
+}
+nav button {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    padding: 12px 36px;
+    border-radius: 10px;
+    color: #ffffff;
+    background-color: #4E47FF;
+}
+/* hero-section */
+.banner-section {
+    width: 905px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 158px;
+}
+
+.banner-section h1 {
+    font-size: 65px;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    color: #252432;
+}
+
+.banner-section button {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    padding: 12px 36px;
+    color: #ffffff;
+    background-color: #4E47FF;
+    border-radius: 10px;
+    cursor: pointer;
+}
