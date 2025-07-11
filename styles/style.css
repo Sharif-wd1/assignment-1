@@ -1,6 +1,6 @@
 
 
-/* repate */
+/* reused section */
     .common-button {
     padding: 12px 24px;
     height: 48px;
@@ -165,7 +165,6 @@ nav button {
     height: 342px;
     margin: 0 auto;
     margin-top: 137px;
-    /* border: 1px solid black; */
 }
 
 .feedback-section-title {
@@ -180,7 +179,6 @@ nav button {
 .users-feedback-content {
     display: flex;
     gap: 20px;
-    /* border: 1px solid black; */
 }
 
 .users-feedback{
@@ -191,7 +189,6 @@ nav button {
     padding-left: 24px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
     border-radius: 14px;
-    /* border: 1px solid black; */
 }
 
 .icone-star img {
@@ -224,6 +221,53 @@ nav button {
     color: gray;
 }
 
+/* focus section */
+.focus-section {
+      width: 1140px;
+      height: 696.77px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      border-radius: 14px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      margin-top: 137px;
+    }
+
+    .focus-section h2 {
+      font-size: 50px;
+      font-weight: bold;
+      font-family: 'Ralway' , sans-serif;
+      margin : 0;
+    }
+
+    .focus-section p {
+      font-size: 16px;
+      color: gray;
+      font-family: 'Inter' , sans-serif;
+    }
+
+    .focus-section button {
+      width: 195px;
+      height: 48px;
+      font-size: 16px;
+      font-weight: 500;
+      font-family: 'Raleway' , sans-serif;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      color: white;
+      background-color: #4E47FF;
+      margin-bottom: 18px;
+    }
+    .welcome-img {
+      /* width: 840px;
+      height: 364.77px; */
+      border-radius: 48px;
+    }
+
 /* from section */
 
 .touch-section {
@@ -234,7 +278,6 @@ nav button {
     align-items: center;
     margin: 0 auto;
     margin-top: 93px;
-    /* box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); */
 }
 
 .touch-section-title {
@@ -248,7 +291,6 @@ nav button {
 .touch-section-form {
     width: 497px;
     height: 490px;
-    /* border: 1px solid black; */
 }
 
 .form-group {
@@ -266,9 +308,6 @@ label {
 
 input , textarea {
     width: 462px;
-    /* padding-top: 20px;
-    padding-left: 30px;
-    padding-bottom: 20px; */
     padding: 12px 15px;
     font-size: 20px;
     font-weight: 500px;
@@ -305,14 +344,12 @@ footer {
     align-items: center;
     background-color: #FFFFFF;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
-    /* border: 1px solid black; */
 }
 
 .footer-content {
     width: 531px;
     height: 221px;
     margin: 0 auto;
-    /* border: 1px solid black; */
 }
 
 .footer-content h3 {
@@ -321,7 +358,6 @@ footer {
     font-family: 'Inter' , sans-serif;
     color: #4E47FF;
     margin: 0;
-    /* border: 1px solid black; */
 }
 
 .footer-content p {
@@ -333,10 +369,9 @@ footer {
 .footer-anchor-section , a {
     display: flex;
     justify-content: space-around;
-    margin-bottom: 0;
+    margin: 5px;
     text-decoration: none;
     font-size: 16px;
     font-family: 'Inter' , sans-serif;
     color: #797777;
-    padding-bottom: 0;
 }
