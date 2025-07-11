@@ -171,7 +171,7 @@ nav button {
 .feedback-section-title {
     font-size: 42px;
     font-weight: bold;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: #252432;
     text-align: center;
     margin-top: 0;
@@ -292,4 +292,51 @@ textarea {
     font-weight: bold;
     font-family: 'Raleway', sans-serif;
     border-radius: 10px;
+}
+
+/* footer section */
+
+footer {
+    width: 100%;
+    height: 428px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    /* border: 1px solid black; */
+}
+
+.footer-content {
+    width: 531px;
+    height: 221px;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+}
+
+.footer-content h3 {
+    font-size: 100px;
+    font-weight: black;
+    font-family: 'Inter' , sans-serif;
+    color: #4E47FF;
+    margin: 0;
+    /* border: 1px solid black; */
+}
+
+.footer-content p {
+    font-family: 'Inter' , sans-serif;
+    color: gray;
+    margin-top: 0;
+}
+
+.footer-anchor-section , a {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Inter' , sans-serif;
+    color: #797777;
+    padding-bottom: 0;
 }
